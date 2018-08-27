@@ -86,7 +86,7 @@ In particular, in the [server] section, you will find:
 You can try calling the root context of url
 for the example, the base url of this server is
 
-http://locahost:8888
+http://localhost:8888
 
 Just call it in normal browser and you will get message something like
 
