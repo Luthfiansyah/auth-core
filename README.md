@@ -226,7 +226,7 @@ localhost:6379>get client_1
 
 ====================================================================================
 
-## Auth Core deployment
+## Auth Core Deployment
 
 The server is at: auth-core
 
