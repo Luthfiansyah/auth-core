@@ -69,7 +69,7 @@ And then following this command :
 go build && ./auth-core -c config.toml
 ```
 
-## OR How to compile Install and run the code ?
+### OR compile Install and run the code ?
 And then following this command :
 ```
 go install
