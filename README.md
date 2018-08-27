@@ -176,7 +176,7 @@ PENDING
 
 ```
 
-PING GET http://localhiost:8888
+PING GET http://localhost:8888
 =====
 {
     "message": "auth-core Core Run on development mode",
