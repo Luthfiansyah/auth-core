@@ -12,7 +12,7 @@ git clone <url>
 
 And you should now find the source code under `auth-core` directory.
 
-## Directory structure
+## Directory Structure
 
 ```
   + your_gopath/
@@ -226,7 +226,7 @@ localhost:6379>get client_1
 
 ====================================================================================
 
-## auth-core Core deployment
+## Auth Core deployment
 
 The server is at: auth-core
 
@@ -234,19 +234,19 @@ The server is at: auth-core
 DEVELOPMENT:
    host   : http://localhost:8888
    branch : develop
-   mode   : development. (local)
+   mode   : development (local)
    folder : auth-core
 
 STAGING   :
    host   : http://new-domain
    branch : staging
-   mode   : staging. (staging)
+   mode   : staging (staging)
    folder : auth-core
 
 PRODUCTION:
    host   : http:///new-domain
    branch : release
-   mode   : production. (production)
+   mode   : production (production)
    folder : auth-core
 ```
 

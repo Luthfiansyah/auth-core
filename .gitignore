@@ -13,4 +13,4 @@
 auth-core
 .env
 
-# config\.toml 
+config.toml 
