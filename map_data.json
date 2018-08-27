@@ -1,0 +1,54 @@
+{
+  "maps": [
+    {
+      "map_name": "error_codes_en",
+      "entries": {
+        "000" : "Success",
+        "001" : "Incomplete / invalid Parameter(s).",
+        "002" : "IP address not allowed or wrong Client ID.",
+        "003" : "Service not found.",
+        "004" : "Service not defined.",
+        "005" : "Invalid Number.",
+        "006" : "Technical Failure.",
+        "007" : "Unexpected Error.",
+        "008" : "Request Timeout.",
+        "009" : "Invalid expiry date / time.",
+        "991" : "System is temporarily offline.",
+        "992" : "Internal Error.",
+        "8000": "The system has encountered an error. Please try again later",
+        "8001": "ID Invalid",
+        "8002": "ID Not Found",
+        "8003": "Data Not Found",
+        "8004": "TrxID Not Found",
+        "8005": "Update Token Token Failed",
+        "8006": "Data Already Registered",
+        "8007": "Wrong password please try again"
+      }
+    },
+    {
+      "map_name": "error_codes_id",
+      "entries": {
+        "000": "Sukses",
+        "001": "Parameter tidak lengkap / tidak valid.",
+        "002": "Alamat IP tidak diizinkan atau ID Klien salah.",
+        "003": "Layanan tidak ditemukan.",
+        "004": "Layanan tidak ditentukan.",
+        "005": "Nomor Tidak Valid.",
+        "006": "Kegagalan Teknis.",
+        "007": "Kesalahan Tidak Terduga.",
+        "008": "Minta Waktu Tunggu.",
+        "009": "Tanggal / waktu kedaluwarsa tidak valid.",
+        "991": "Sistem offline sementara.",
+        "992": "Kesalahan Internal.",
+        "8000": "Sistem mengalami kesalahan. Silakan coba lagi nanti",
+        "8001": "ID Invalid",
+        "8002": "ID Not Found",
+        "8003": "Data Not Found",
+        "8004": "TrxID Not Found",
+        "8005": "Update Token Failed",
+        "8006": "Data Already Registered",
+        "8007": "Password Salah Silakan coba lagi"
+      }
+    }
+  ] 
+}

@@ -1,0 +1,76 @@
+package: github.com/auth-core
+import:
+- package: github.com/gin-gonic/gin
+- package: github.com/jinzhu/gorm
+  version: v1.9.1
+- package: github.com/spf13/viper
+  version: v1.0.2
+- package: github.com/op/go-logging
+  version: v1
+- package: github.com/golang/protobuf
+  version: v1.1.0
+  subpackages:
+  - protoc-gen-go
+- package: github.com/fsnotify/fsnotify
+  version: v1.4.7
+- package: github.com/gin-contrib/sse
+- package: github.com/go-sql-driver/mysql
+  version: v1.4.0
+- package: github.com/hashicorp/hcl
+  subpackages:
+  - hcl/printer
+- package: github.com/jinzhu/inflection
+- package: github.com/labstack/gommon
+  version: 0.2.6
+  subpackages:
+  - log
+- package: github.com/lib/pq
+  subpackages:
+  - hstore
+- package: github.com/magiconair/properties
+  version: v1.8.0
+- package: github.com/mattn/go-isatty
+  version: v0.0.3
+- package: github.com/mitchellh/mapstructure
+- package: github.com/pelletier/go-toml
+  version: v1.2.0
+- package: github.com/spf13/afero
+  version: v1.1.1
+- package: github.com/spf13/cast
+  version: v1.2.0
+- package: github.com/spf13/jwalterweatherman
+- package: github.com/spf13/pflag
+  version: v1.0.1
+- package: github.com/ugorji/go
+  version: v1.1.1
+  subpackages:
+  - codec
+- package: gopkg.in/gin-gonic/gin.v1
+  version: v1.2
+- package: gopkg.in/yaml.v2
+  version: v2.2.1
+- package: github.com/mattn/go-colorable
+  version: v0.0.9
+- package: github.com/valyala/fasttemplate
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+- package: golang.org/x/text
+  version: v0.3.0
+  subpackages:
+  - transform
+- package: github.com/codegangsta/negroni
+  version: ~0.3.0
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.2.0
+  subpackages:
+  - request
+- package: github.com/go-redis/redis
+  version: v6.13.2
+- package: golang.org/x/crypto
+  subpackages:
+  - bcrypt
+- package: github.com/newrelic/go-agent
+  version: ~2.0.0
+- package: google.golang.org/grpc
+  version: ~1.14.0
